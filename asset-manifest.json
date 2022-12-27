@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/leizafroilan.github.io/static/css/main.b2c10dc9.css",
-    "main.js": "/leizafroilan.github.io/static/js/main.b4705b02.js",
-    "static/js/787.dc9ee2bf.chunk.js": "/leizafroilan.github.io/static/js/787.dc9ee2bf.chunk.js",
+    "main.js": "/leizafroilan.github.io/static/js/main.eb8e7b90.js",
     "static/media/Froilan_Leiza_Network_CV.pdf": "/leizafroilan.github.io/static/media/Froilan_Leiza_Network_CV.8ab9da3665888891d90e.pdf",
     "index.html": "/leizafroilan.github.io/index.html",
     "main.b2c10dc9.css.map": "/leizafroilan.github.io/static/css/main.b2c10dc9.css.map",
-    "main.b4705b02.js.map": "/leizafroilan.github.io/static/js/main.b4705b02.js.map",
-    "787.dc9ee2bf.chunk.js.map": "/leizafroilan.github.io/static/js/787.dc9ee2bf.chunk.js.map"
+    "main.eb8e7b90.js.map": "/leizafroilan.github.io/static/js/main.eb8e7b90.js.map"
   },
   "entrypoints": [
     "static/css/main.b2c10dc9.css",
-    "static/js/main.b4705b02.js"
+    "static/js/main.eb8e7b90.js"
   ]
 }
