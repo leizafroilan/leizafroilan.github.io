@@ -1,10 +1,7 @@
 
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import img from'./img/img.jfif'
 import {FiGithub, FiLinkedin, FiPhone, FiMail} from  'react-icons/fi'
-import Download from './Download';
-import { Link } from 'react-router-dom';
 
 function Profile() {
   return (

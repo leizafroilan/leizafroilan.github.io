@@ -52,6 +52,14 @@ body, html {
   background-color: rgb(111, 148, 160);
 }
 
+.contact-info a {
+  color: #ffff;
+}
+
+.contact-info a:hover {
+  color: #1a485f
+}
+
 .icon {
   margin-right: 0.5em;
   font-size: 16px;
