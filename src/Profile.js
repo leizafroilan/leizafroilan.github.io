@@ -26,7 +26,7 @@ function Profile() {
         <div className="contact-info">
           <p><FiPhone className="icon" /> +65 96653764 </p>    
           <p><FiMail className="icon" /> <a href="mailto:leizafroilan@gmail.com">leizafroilan@gmail.com</a></p>  
-          <p><FiLinkedin className="icon" /> <a href="https://www.linkedin.com/in/froilan-leiza-83a91743/" target="_blank" rel="noopener noreferrer">linkedin.com/in/froilan-leiza-83a91743</a></p>
+          <p><FiLinkedin className="icon" /> <a href="https://www.linkedin.com/in/frolei/" target="_blank" rel="noopener noreferrer">linkedin.com/in/frolei</a></p>
           <p><FiGithub className="icon" /> <a href="https://github.com/leizafroilan" target="_blank" rel="noopener noreferrer">github.com/leizafroilan</a></p>
         </div>
         <div className="left-header">
@@ -66,9 +66,11 @@ function Profile() {
           Endpoint Security <br/> <br/>
           Python <br/> <br/>
           React JS <br/> <br/>
-          Network Packet Analysis <br/> <br/>
-          Network Applications Development <br/> <br/>
+          Packet Analysis <br/> <br/>
+          Network Development <br/> <br/>
           Network Monitoring <br/> <br/>
+          Containers/Docker <br/> <br/>
+          Ansible <br/> <br/>
           SQL
           </p>
 
