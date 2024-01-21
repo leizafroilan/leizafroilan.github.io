@@ -215,7 +215,7 @@ body, html {
   }
 }
 
-/* Styles for screens up to 420px wide (typical mobile devices) */
+/* Styles for screens up to 420px wide (typical mobile devices - iphone) */
 @media (max-width: 435px) {
 
   .left-container {
@@ -239,14 +239,25 @@ body, html {
 
   .contact-info {
     font-size: 12px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
   .left-header {
-    font-size: 17px;
-    padding-left: 15px;
+    font-size: 16px;
+    padding-left: 10px;
   }
   .left-desc p {
-    padding-left: 15px;
+    padding-left: 10px;
+  }
+  .left-desc p:first-child {
+    font-size: 12px; 
+  }
+  
+  .left-desc p:nth-child(2) {
+    font-size: 12px; 
+  }
+  .left-desc p:nth-child(3) {
+    font-size: 12px; 
+    padding-bottom: 10px;
   }
   .right-container {
     padding-left: 0;
@@ -257,7 +268,8 @@ body, html {
   }
   .right-desc {
     margin-left: 10px;
-    font-size: 13px;
+    margin-right: 10px;
+    font-size: 12px;
   }
   
   .right-title p:first-child {
@@ -273,5 +285,87 @@ body, html {
   }
   .right-title p:nth-child(4) {
     margin-left: 10px;
+  }
+}
+
+/* Styles for screens up to 280px wide (typical mobile devices - galaxy fold) */
+@media (max-width: 285px) {
+
+  .left-container {
+    max-width: 150px;
+  }
+
+  .profile {
+    padding: 15px;
+    max-width: 150px;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+  }
+
+  .contact-info {
+    font-size: 9px;
+    padding-left: 10px;
+  }
+  .icon {
+    margin-right: 0.5em;
+    font-size: 12px;
+    text-align: left;
+  }
+  .left-header {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .left-desc p {
+    padding-left: 9px;
+  }
+  
+.left-desc p:first-child {
+  font-size: 10px; 
+}
+
+.left-desc p:nth-child(2) {
+  font-size: 10px; 
+}
+.left-desc p:nth-child(3) {
+  font-size: 10px; 
+  padding-bottom: 10px;
+}
+  .right-container {
+    padding-left: 0;
+  }
+  .right-header {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .right-desc {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  
+  .right-title p:first-child {
+    margin-left: 10px;
+    font-size: 12px; 
+  }
+  
+  .right-title p:nth-child(2) {
+    margin-left: 10px;
+    font-size: 12px; 
+  }
+  .right-title p:nth-child(3) {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .right-title p:nth-child(4) {
+    margin-left: 10px;
+    font-size: 10px;
   }
 }

@@ -99,7 +99,11 @@ function Profile() {
           <p>
           Responsible for proactively preventing and mitigating security threats and vulnerabilities by implementing patches and
           <br/>upgrades on managed security devices, weekly content updates, device backups and proactively coordinated with SIEMs 
-          <br/>and third-party vendors to assess attacks and vulnerabilities
+          <br/>and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
+          Implement technical changes and was involved on several projects' solutions and migration of existing applications to cloud,
+          <br/>managed incidents and other operational BAU tasks<br/><br/>
+          Create monthly reports and document several processes, runbooks and upgrade procedures<br/><br/>
+          Responsible in firewall upgrades and replacements
           </p>
           <br/>
         </div>
@@ -133,7 +137,7 @@ function Profile() {
           <p>
           Responsible for proactively preventing and mitigating security threats and vulnerabilities by implementing patches and
           <br/>upgrades on managed security devices, weekly content updates, device backups and proactively coordinated with SIEMs 
-          <br/>and third-party vendors to assess attacks and vulnerabilities<br/><br/>
+          <br/>and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
           Implemented technical changes and was involved on several projects' solutions and migration of existing applications to cloud,
           <br/>managed incidents and other operational BAU tasks<br/><br/>
           Led monthly reports creation and documented several processes, runbooks and upgrade procedures<br/>
