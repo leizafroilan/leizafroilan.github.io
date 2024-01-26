@@ -21,7 +21,7 @@ function Profile() {
           </div>
         </div>
         <div className="contact-info">
-          <p><FiPhone className="icon" /> +65 96653764 </p>    
+          <p><FiPhone className="icon" /><a href="tel:+6596653764">+65 96653764</a> </p>    
           <p><FiMail className="icon" /> <a href="mailto:leizafroilan@gmail.com">leizafroilan@gmail.com</a></p>  
           <p><FiLinkedin className="icon" /> <a href="https://www.linkedin.com/in/frolei/" target="_blank" rel="noopener noreferrer">linkedin.com/in/frolei</a></p>
           <p><FiGithub className="icon" /> <a href="https://github.com/leizafroilan" target="_blank" rel="noopener noreferrer">github.com/leizafroilan</a></p>
