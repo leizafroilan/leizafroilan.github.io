@@ -2,7 +2,6 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: "Roboto", sans-serif, "Inter var";
-  /* background-color: whitesmoke; */
 }
 
 .main-container {
@@ -192,7 +191,7 @@ body, html {
     padding-left: 30px;
     padding-bottom: 10px;
   }
-
+  
 .left-header {
   font-size: 20px;
   padding-left: 30px;
@@ -265,15 +264,22 @@ body, html {
 
   .contact-info {
     font-size: 12px;
-    padding: 0px 10px 20px 20px;
+    padding: 0px 5px 20px 20px;
   }
+
+  .icon {
+    margin-right: 0.2em;
+  }
+
   .left-header {
     font-size: 15px;
     padding: 0px 10px 0px 20px;
   }
+
   .left-desc p {
     padding: 0px 10px 0px 20px;
   }
+
   .left-desc p:first-child {
     font-size: 12px; 
     padding: 0px 10px 0px 20px;
@@ -283,18 +289,22 @@ body, html {
     font-size: 12px; 
     padding: 0px 10px 0px 20px;
   }
+
   .left-desc p:nth-child(3) {
     font-size: 12px; 
     padding: 0px 10px 20px 20px;
   }
+
   .right-container {
     padding-left: 0;
   }
+
   .right-header {
     font-size: 20px;
     margin-left: 15px;
     margin-right: 10px;
   }
+
   .right-desc {
     margin-left: 15px;
     margin-right: 10px;
@@ -313,11 +323,13 @@ body, html {
     margin-right: 10px;
     font-size: 13px; 
   }
+
   .right-title p:nth-child(3) {
     margin-left: 15px;
     margin-right: 10px;
     font-size: 13px; 
   }
+
   .right-title p:nth-child(4) {
     margin-left: 15px;
     margin-right: 10px;
@@ -352,6 +364,7 @@ body, html {
     padding-left: 15px; 
     padding-bottom: 10px;
   }
+
   .icon {
     margin-right: 0.5em;
     font-size: 12px;
@@ -365,49 +378,55 @@ body, html {
     padding-left: 15px;
   }
   
-.left-desc p:first-child {
-  font-size: 10px; 
-  padding-left: 15px;
-}
+  .left-desc p:first-child {
+    font-size: 10px; 
+    padding-left: 15px;
+  }
 
-.left-desc p:nth-child(2) {
-  font-size: 10px;
-  padding-left: 15px;
-}
-.left-desc p:nth-child(3) {
-  font-size: 10px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-}
+  .left-desc p:nth-child(2) {
+    font-size: 10px;
+    padding-left: 15px;
+  }
+
+  .left-desc p:nth-child(3) {
+    font-size: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+
   .right-container {
     padding-left: 0;
   }
+
   .right-header {
     font-size: 16px;
     margin-left: 15px;
   }
+
   .right-desc {
     margin-left: 15px;
     margin-right: 10px;
     font-size: 10px;
   }
-  
+    
   .right-title p:first-child {
     margin-left: 15px;
     margin-right: 10px;
     font-size: 12px; 
   }
-  
+    
   .right-title p:nth-child(2) {
     margin-left: 15px;
     margin-right: 10px;
     font-size: 10px; 
   }
+
   .right-title p:nth-child(3) {
     margin-left: 15px;
     margin-right: 10px;
     font-size: 10px;
   }
+
   .right-title p:nth-child(4) {
     margin-left: 15px;
     margin-right: 10px;
