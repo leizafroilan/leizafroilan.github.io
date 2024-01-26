@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e17905e.css",
+    "main.css": "/static/css/main.0ebbd3f8.css",
     "main.js": "/static/js/main.a9a7a93a.js",
     "static/media/leizafroilan-github-io.pdf": "/static/media/leizafroilan-github-io.4019fc65036e82b30bd3.pdf",
     "static/media/img.jfif": "/static/media/img.5a27053b5cf682395c61.jfif",
     "index.html": "/index.html",
-    "main.0e17905e.css.map": "/static/css/main.0e17905e.css.map",
+    "main.0ebbd3f8.css.map": "/static/css/main.0ebbd3f8.css.map",
     "main.a9a7a93a.js.map": "/static/js/main.a9a7a93a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e17905e.css",
+    "static/css/main.0ebbd3f8.css",
     "static/js/main.a9a7a93a.js"
   ]
 }
