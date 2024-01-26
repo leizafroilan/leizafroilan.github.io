@@ -21,6 +21,7 @@ function Profile() {
           </div>
         </div>
         <div className="contact-info">
+          <br/>
           <p><FiPhone className="icon" /><a href="tel:+6596653764">+65 96653764</a> </p>    
           <p><FiMail className="icon" /> <a href="mailto:leizafroilan@gmail.com">leizafroilan@gmail.com</a></p>  
           <p><FiLinkedin className="icon" /> <a href="https://www.linkedin.com/in/frolei/" target="_blank" rel="noopener noreferrer">linkedin.com/in/frolei</a></p>
@@ -58,17 +59,17 @@ function Profile() {
         <div className="left-desc">
           <p></p>
           <p>
-          Routing/Switching <br/> <br/>
-          Network Security <br/> <br/>
-          Endpoint Security <br/> <br/>
-          Python <br/> <br/>
-          React JS <br/> <br/>
-          Packet Analysis <br/> <br/>
-          Network Development <br/> <br/>
-          Network Monitoring <br/> <br/>
-          Containers/Docker <br/> <br/>
-          Ansible <br/> <br/>
-          SQL
+          Routing/Switching <br/>
+          Network Security <br/>
+          Endpoint security <br/> 
+          Python <br/>
+          React JS <br/>
+          Packet Analysis <br/>
+          Network Development <br/>
+          Network Monitoring <br/>
+          Containers/Dockers <br/>
+          Ansible <br/>
+          SQL <br/>
           </p>
 
         </div>
@@ -81,9 +82,9 @@ function Profile() {
         <div className="right-desc">
           <p>
           Experienced Senior Network Engineer with over 12 years of expertise in designing, implementing, and maintaining robust 
-          <br/>network and security systems across diverse environments, including data centers, remote offices, and cloud infrastructure. 
+          network and security systems across diverse environments, including data centers, remote offices, and cloud infrastructure. 
           <br/><br/>Prior experience includes a role as a Network Engineer for Tools and Applications (NetDevOps), emphasizing network 
-          <br/>automation, monitoring, and tools development to enhance operational efficiency and performance
+          automation, monitoring, and tools development to enhance operational efficiency and performance
           </p>
         </div>
         <div className="right-header">
@@ -98,12 +99,12 @@ function Profile() {
         <div className="right-desc">
           <p>
           Responsible for proactively preventing and mitigating security threats and vulnerabilities by implementing patches and
-          <br/>upgrades on managed security devices, weekly content updates, device backups and proactively coordinated with SIEMs 
-          <br/>and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
+          upgrades on managed security devices, weekly content updates, device backups and proactively coordinated with SIEMs 
+          and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
           Implement technical changes and was involved on several projects' solutions and migration of existing applications to cloud,
-          <br/>managed incidents and other operational BAU tasks<br/><br/>
+          managed incidents and other operational BAU tasks<br/><br/>
           Create monthly reports and document several processes, runbooks and upgrade procedures<br/><br/>
-          Responsible in firewall upgrades and replacements
+          Responsible in firewall upgrades and replacements<br/>
           </p>
           <br/>
         </div>
@@ -116,14 +117,14 @@ function Profile() {
         <div className="right-desc">
           <p>
           Implemented improvements to client’s network management tools, with specific focus on broadening and deepening the capabilities 
-          <br/>for network monitoring, fault detection, and recovery<br/><br/>
+          for network monitoring, fault detection, and recovery<br/><br/>
           Enhanced client’ s existing toolsets, identified gaps in coverage and capability, and worked with team leads, architects and 
-          <br/>engineers in developing solutions to create more specific, granular, and real-time network visibility<br/><br/>
+          engineers in developing solutions to create more specific, granular, and real-time network visibility<br/><br/>
           Contributed on coding and automation project that develops Network Operations Tools using Python, MSSQL, and React/JS<br/><br/>
           Part of a group that does administrative work in Solarwinds and Netbrain which involves NPM, NCM basic administration and
-          <br/>utilizes advance support such as developing codes around Solarwinds SWIS API, MSSQL, and Netbrain Restful API.<br/><br/>
+          utilizes advance support such as developing codes around Solarwinds SWIS API, MSSQL, and Netbrain Restful API.<br/><br/>
           Developed and documented a process and code for reconciling existing and new devices to ensure that device inventories are in-sync 
-          <br/>across all platforms and to prevent monitoring and security gaps caused mainly by human error.<br/>
+          across all platforms and to prevent monitoring and security gaps caused mainly by human error.<br/>
           </p>
           <br/>
         </div>
@@ -136,10 +137,10 @@ function Profile() {
         <div className="right-desc">
           <p>
           Responsible for proactively preventing and mitigating security threats and vulnerabilities by implementing patches and
-          <br/>upgrades on managed security devices, weekly content updates, device backups and proactively coordinated with SIEMs 
-          <br/>and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
+          upgrades on managed security devices, weekly content updates, device backups and proactively coordinated with SIEMs 
+          and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
           Implemented technical changes and was involved on several projects' solutions and migration of existing applications to cloud,
-          <br/>managed incidents and other operational BAU tasks<br/><br/>
+          managed incidents and other operational BAU tasks<br/><br/>
           Led monthly reports creation and documented several processes, runbooks and upgrade procedures<br/>
           </p>
           <br/>
@@ -166,11 +167,11 @@ function Profile() {
         <div className="right-desc">
           <p>
           Led the deployment of Cisco ASA ACLs across 1500+ remote sites via network automation and worked on several projects involving
-          <br/>router and switch refresh and firewall migrations<br/><br/>
+          router and switch refresh and firewall migrations<br/><br/>
           Implemented technical changes and managed incidents with deep troubleshooting via packet analysis and forensics on network 
-          <br/>and security devices and handled escalations from Network Operations<br/><br/>
+          and security devices and handled escalations from Network Operations<br/><br/>
           Administration of network and security devices to ensure their versions and patches are up to date, properly monitored by
-          <br/>several monitoring systems, taps and other log facilities for packet capture and network visibility<br/><br/>
+          several monitoring systems, taps and other log facilities for packet capture and network visibility<br/><br/>
           Conducted internal technical training to the team and knowledge transfer sessions to new hires<br/>
           </p>
           <br/>
@@ -184,16 +185,16 @@ function Profile() {
         <div className="right-desc">
           <p>
           Administration of network and security devices to ensure their versions and patches are up to date, implemented technical
-          <br/>changes and other operational and BAU tasks<br/><br/>
+          hanges and other operational and BAU tasks<br/><br/>
           Attended CAB meetings where network changes are up for review and represented network changes as Change Coordinator,
-          <br/>Implementer and attended Problem Management meetings as required by business<br/><br/>
+          Implementer and attended Problem Management meetings as required by business<br/><br/>
           Responsible for maintenance and updates of network documentation, diagrams and procedures and ensured proper handover of 
-          <br/>network devices to Operation<br/>
+          network devices to Operation<br/>
           </p>
           <br/>
         </div>
         <div className="right-title">
-          <p>Network Engineer/Network Shift Lead/Network Analyst</p>
+          <p>Network Engineer</p>
           <p>Regus Service Centre</p>
           <p>BGC Taguig, Philippines</p>
           <p>September 2010 – April 2013</p>
@@ -204,8 +205,8 @@ function Profile() {
           Effective and professional response and solutions to reported problems, including the proficient diagnosis and repair of
           complex network faults <br/><br/>
           Coordinated with regional managers of different IT groups to ensure proper escalation and incident resolution <br/><br/>
-          Part of Problem Management Team which pro-actively monitored network, mitigated and predicted possible network
-          <br/>issues identified by several monitoring systems<br/>
+          Part of Problem Management Team which pro-actively monitored network, mitigated and predicted possible network issues 
+          identified by several monitoring systems<br/>
           </p>
           <br/>
         </div>
