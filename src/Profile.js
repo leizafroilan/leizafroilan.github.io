@@ -2,6 +2,8 @@
 import './App.css';
 import img from'./img/img.jfif'
 import {FiGithub, FiLinkedin, FiPhone, FiMail} from  'react-icons/fi'
+import {FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope} from  'react-icons/fa'
+
 
 function Profile() {
   return (
@@ -20,12 +22,29 @@ function Profile() {
             Froilan Leiza
           </div>
         </div>
-        <div className="contact-info">
-          <br/>
-          <p><FiPhone className="icon" /><a href="tel:+6596653764">+65 96653764</a> </p>    
-          <p><FiMail className="icon" /> <a href="mailto:leizafroilan@gmail.com">leizafroilan@gmail.com</a></p>  
-          <p><FiLinkedin className="icon" /> <a href="https://www.linkedin.com/in/frolei/" target="_blank" rel="noopener noreferrer">linkedin.com/in/frolei</a></p>
-          <p><FiGithub className="icon" /> <a href="https://github.com/leizafroilan" target="_blank" rel="noopener noreferrer">github.com/leizafroilan</a></p>
+        <br/><br/>
+        <div className="contact-container">
+          <FaWhatsapp className="icon" color="#25D366" /> 
+          <div className="contact-info">
+            <a href="tel:+6596653764">+65 96653764</a>
+          </div>
+        </div>
+        <div className="contact-container">
+          <FaEnvelope className="icon" /> 
+          <div className="contact-info">
+            <a href="mailto:leizafroilan@gmail.com">leizafroilan@gmail.com</a>
+          </div>
+        </div>
+        <div className="contact-container">
+          <FaLinkedin className="icon" color="#0a66c2" /> 
+          <div className="contact-info">
+            <a href="https://www.linkedin.com/in/frolei" target="_blank" rel="noopener noreferrer">linkedin.com/in/frolei</a>
+          </div>
+        </div>
+        <div className="contact-container">
+          <FaGithub className="icon" color="#2b3137"/> 
+          <div className="contact-info">
+            <a href="https://github.com/leizafroilan" target="_blank" rel="noopener noreferrer">github.com/leizafroilan</a></div>
         </div>
         <div className="left-header">
           <h3>Education</h3>
