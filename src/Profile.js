@@ -1,8 +1,7 @@
 
 import './App.css';
 import img from'./img/img.jfif'
-import {FiGithub, FiLinkedin, FiPhone, FiMail} from  'react-icons/fi'
-import {FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope} from  'react-icons/fa'
+import {FaGithub, FaLinkedinIn, FaWhatsapp, FaPhone, FaRegEnvelope} from  'react-icons/fa'
 
 
 function Profile() {
@@ -22,21 +21,20 @@ function Profile() {
             Froilan Leiza
           </div>
         </div>
-        <br/><br/>
         <div className="contact-container">
-          <FaWhatsapp className="icon" color="#25D366" /> 
+          <FaPhone className="icon" color="#25D366" /> 
           <div className="contact-info">
             <a href="tel:+6596653764">+65 96653764</a>
           </div>
         </div>
         <div className="contact-container">
-          <FaEnvelope className="icon" /> 
+          <FaRegEnvelope className="icon" /> 
           <div className="contact-info">
             <a href="mailto:leizafroilan@gmail.com">leizafroilan@gmail.com</a>
           </div>
         </div>
         <div className="contact-container">
-          <FaLinkedin className="icon" color="#0a66c2" /> 
+          <FaLinkedinIn className="icon" color="#0a66c2" /> 
           <div className="contact-info">
             <a href="https://www.linkedin.com/in/frolei" target="_blank" rel="noopener noreferrer">linkedin.com/in/frolei</a>
           </div>
@@ -100,7 +98,7 @@ function Profile() {
         </div>
         <div className="right-desc">
           <p>
-          Experienced Senior Network Engineer with over 12 years of expertise in designing, implementing, and maintaining robust 
+          Experienced Senior Network Engineer with over 13 years of expertise in designing, implementing, and maintaining robust 
           network and security systems across diverse environments, including data centers, remote offices, and cloud infrastructure. 
           <br/><br/>Prior experience includes a role as a Network Engineer for Tools and Applications (NetDevOps), emphasizing network 
           automation, monitoring, and tools development to enhance operational efficiency and performance

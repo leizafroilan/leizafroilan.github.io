@@ -15,6 +15,7 @@ body, html {
   display: flex;
   flex-direction: column;
   background-color: rgb(111, 148, 160);
+  background-image: linear-gradient(to right, rgb(111, 148, 160), rgb(152, 196, 196));
 }
 
 .profile {
@@ -22,7 +23,10 @@ body, html {
   flex-direction: column;
   align-items: center;
   padding: 50px 0px 50px 0px;
-  background-color:  rgb(77, 139, 159);
+  /* background-color:  rgb(77, 139, 159);
+  background-image: linear-gradient(to bottom, rgb(77, 139, 159), rgb(111, 148, 160)); */
+  background-color: rgb(111, 148, 160);
+  background-image: linear-gradient(to right, rgb(111, 148, 160), rgb(152, 196, 196));
 }
 
 .profile-image {
@@ -185,12 +189,6 @@ body, html {
     height: 190px;
     margin: 10px;
   }
-
-  /* .contact-info {
-    font-size: 16px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-  } */
 
   .contact-container {  
     padding: 0px 10px 10px 30px;
