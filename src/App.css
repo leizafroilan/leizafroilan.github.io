@@ -42,6 +42,7 @@ body, html {
   font-size: 30px;
   font-weight: bold;
   color: white;
+  padding-bottom: 30px;
 }
 
 
@@ -67,6 +68,7 @@ body, html {
 .icon {
   font-size: 20px;
   padding-right:10px;
+  line-height: 1.5px;
 }
 .left-header {
   text-align: left;
@@ -86,7 +88,7 @@ body, html {
   align-items: center;
   justify-content: center;
   padding-left: 50px;
-  line-height: 2;
+    
 }
 
 .left-desc p:first-child {
