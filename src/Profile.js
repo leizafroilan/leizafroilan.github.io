@@ -1,7 +1,7 @@
 
 import './App.css';
 import img from'./img/img.jfif'
-import {FaGithub, FaLinkedinIn, FaWhatsapp, FaPhone, FaRegEnvelope} from  'react-icons/fa'
+import {FaGithub, FaLinkedinIn, FaPhone, FaRegEnvelope} from  'react-icons/fa'
 
 
 function Profile() {
@@ -70,6 +70,11 @@ function Profile() {
           <p>ID CP0000078086</p>
           <p>May 2016 - May 2018</p>
         </div>
+        <div className="left-desc">
+          <p>MS Azure Fundamentals</p>
+          <p>ID 50B7C6EB6CD09593</p>
+          <p>April 2021 - Present</p>
+        </div>
         <div className="left-header">
           <h3>Skills</h3>
         </div>
@@ -78,9 +83,9 @@ function Profile() {
           <p>
           Routing/Switching <br/>
           Network Security <br/>
-          Endpoint security <br/> 
+          Endpoint Security <br/> 
           Python <br/>
-          React JS <br/>
+          ReactJS/Javascript <br/>
           Packet Analysis <br/>
           Network Development <br/>
           Network Monitoring <br/>
@@ -137,7 +142,7 @@ function Profile() {
           for network monitoring, fault detection, and recovery<br/><br/>
           Enhanced client’ s existing toolsets, identified gaps in coverage and capability, and worked with team leads, architects and 
           engineers in developing solutions to create more specific, granular, and real-time network visibility<br/><br/>
-          Contributed on coding and automation project that develops Network Operations Tools using Python, MSSQL, and React/JS<br/><br/>
+          Contributed on coding and automation project that develops Network Operations Tools using Python, MSSQL, and ReactJS<br/><br/>
           Part of a group that does administrative work in Solarwinds and Netbrain which involves NPM, NCM basic administration and
           utilizes advance support such as developing codes around Solarwinds SWIS API, MSSQL, and Netbrain Restful API.<br/><br/>
           Developed and documented a process and code for reconciling existing and new devices to ensure that device inventories are in-sync 
@@ -158,6 +163,7 @@ function Profile() {
           and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
           Implemented technical changes and was involved on several projects' solutions and migration of existing applications to cloud,
           managed incidents and other operational BAU tasks<br/><br/>
+          Managed and administered Cloud Security solutions such as Palo Alo Traps XDR<br/><br/>
           Led monthly reports creation and documented several processes, runbooks and upgrade procedures<br/>
           </p>
           <br/>

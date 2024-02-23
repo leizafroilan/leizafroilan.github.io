@@ -5,15 +5,13 @@ import Profile from './Profile';
 import Download from './Download';
 
 
-
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/download" element={<Download />}>          
-        </Route>
+        <Route path="/download" element={<Download />} />     
       </Routes>
     </Router>
   );
