@@ -90,7 +90,6 @@ function Profile() {
           Network Development <br/>
           Network Monitoring <br/>
           Containers/Dockers <br/>
-          Ansible <br/>
           SQL <br/>
           </p>
 
@@ -125,6 +124,7 @@ function Profile() {
           and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
           Implement technical changes and was involved on several projects' solutions and migration of existing applications to cloud,
           managed incidents and other operational BAU tasks<br/><br/>
+          Implements and manages WAF policies and configurations through CI/CD pipelines<br/><br/>
           Create monthly reports and document several processes, runbooks and upgrade procedures<br/><br/>
           Responsible in firewall upgrades and replacements<br/>
           </p>
