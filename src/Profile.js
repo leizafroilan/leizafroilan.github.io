@@ -90,6 +90,8 @@ function Profile() {
           Network Development <br/>
           Network Monitoring <br/>
           Containers/Dockers <br/>
+          Container Security <br/>
+          AWS Native Services <br/>
           SQL <br/>
           </p>
 
@@ -105,7 +107,7 @@ function Profile() {
           Experienced Senior Network Engineer with over 13 years of expertise in designing, implementing, and maintaining robust 
           network and security systems across diverse environments, including data centers, remote offices, and cloud infrastructure. 
           <br/><br/>Prior experience includes a role as a Network Engineer for Tools and Applications (NetDevOps), emphasizing network 
-          automation, monitoring, and tools development to enhance operational efficiency and performance
+          automation, monitoring, and tools development to enhance operational efficiency and performance.
           </p>
         </div>
         <div className="right-header">
@@ -122,11 +124,11 @@ function Profile() {
           Responsible for proactively preventing and mitigating security threats and vulnerabilities by implementing patches and
           upgrades on managed security devices, weekly content updates, device backups and proactively coordinated with SIEMs 
           and third-party vendors to assess attacks and patch vulnerabilities<br/><br/>
-          Implement technical changes and was involved on several projects' solutions and migration of existing applications to cloud,
-          managed incidents and other operational BAU tasks<br/><br/>
-          Implements and manages WAF policies and configurations through CI/CD pipelines<br/><br/>
-          Create monthly reports and document several processes, runbooks and upgrade procedures<br/><br/>
-          Responsible in firewall upgrades and replacements<br/>
+          Implement technical changes  and was involved on several projects' solutions and migration of existing applications to cloud,
+          firewall upgrades and migrations and other operational BAU tasks<br/><br/>
+          Implements and manages AWS WAF policies and configurations through CI/CD pipelines and Terraform<br/><br/>
+          Manages and deploys Aquasecurity solutions on AWS ECS through CI/CD pipelines and Terraform<br/><br/>
+          Create monthly reports and document several processes, runbooks and upgrade procedures<br/>
           </p>
           <br/>
         </div>
@@ -142,9 +144,9 @@ function Profile() {
           for network monitoring, fault detection, and recovery<br/><br/>
           Enhanced client’ s existing toolsets, identified gaps in coverage and capability, and worked with team leads, architects and 
           engineers in developing solutions to create more specific, granular, and real-time network visibility<br/><br/>
-          Contributed on coding and automation project that develops Network Operations Tools using Python, MSSQL, and ReactJS<br/><br/>
-          Part of a group that does administrative work in Solarwinds and Netbrain which involves NPM, NCM basic administration and
-          utilizes advance support such as developing codes around Solarwinds SWIS API, MSSQL, and Netbrain Restful API.<br/><br/>
+          Contributed on coding and automation project that developed Network Operations Tools using Python/FastAPI, MSSQL, and ReactJS<br/><br/>
+          Part of a group that does administrative work in QIP, Solarwinds and Netbrain which involves NPM, NCM basic administration and
+          utilizes advance solutions such as developing codes around Solarwinds SWIS API, MSSQL, and Netbrain Restful API.<br/><br/>
           Developed and documented a process and code for reconciling existing and new devices to ensure that device inventories are in-sync 
           across all platforms and to prevent monitoring and security gaps caused mainly by human error.<br/>
           </p>
