@@ -56,7 +56,9 @@ function Profile() {
           <h3>Certificates</h3>
         </div>
         <div className="left-desc">
-          <p>AWS Solutions Architect<br/> (Associate)</p>
+          <a href="https://www.linkedin.com/in/frolei" target="_blank" rel="noopener noreferrer"
+          >AWS Solutions Architect<br/> (Associate)</a>
+          {/* <p>AWS Solutions Architect<br/> (Associate)</p> */}
           <p>Aug 2025 - Aug 2028</p><br/>
         </div>
         <div className="left-desc">
