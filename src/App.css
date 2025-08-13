@@ -70,6 +70,15 @@ body, html {
   color: #1a485f
 }
 
+.cert-info a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.cert-info a:hover {
+  color: #1a485f
+}
+
 .icon {
   font-size: 20px;
   padding-right:10px;

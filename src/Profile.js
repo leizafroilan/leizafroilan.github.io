@@ -55,26 +55,36 @@ function Profile() {
         <div className="left-header">
           <h3>Certificates</h3>
         </div>
-        <div className="left-desc">
-          <a href="https://www.linkedin.com/in/frolei" target="_blank" rel="noopener noreferrer"
+        <div className="left-desc cert-info">
+          <p>
+          <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/164bdc50af1f444aa6f9cf491d40c453" target="_blank" rel="noopener noreferrer"
           >AWS Solutions Architect<br/> (Associate)</a>
-          {/* <p>AWS Solutions Architect<br/> (Associate)</p> */}
+          </p>
           <p>Aug 2025 - Aug 2028</p><br/>
         </div>
-        <div className="left-desc">
-          <p>CCNP Enterprise</p>
+        <div className="left-desc cert-info">
+          <p>
+           <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/TXTQLDTFJP1E1XK0" target="_blank" rel="noopener noreferrer"
+          >CCNP Enterprise </a>
+          </p>
           <p>Jun 2011 - Jul 2023</p><br/>
         </div>
-        <div className="left-desc">
-          <p>PCNSE</p>
+        <div className="left-desc cert-info">
+          <p>
+             <a href="https://www.credly.com/badges/cfffe41f-7216-4325-ba26-2f4b2cd576ea/public_url" target="_blank" rel="noopener noreferrer"
+          >PCNSE</a>
+          </p>
           <p>Jun 2020 - Jul 2022</p><br/>
         </div>
         <div className="left-desc">
           <p>CCSE</p>
           <p>May 2016 - May 2018</p><br/>
         </div>
-        <div className="left-desc">
-          <p>MS Azure Fundamentals</p>
+         <div className="left-desc cert-info">
+          <p>
+           <a href="https://learn.microsoft.com/en-us/users/froilanleiza-7296/credentials/50b7c6eb6cd09593" target="_blank" rel="noopener noreferrer"
+          >MS Azure Fundamentals</a>
+          </p>
           <p>Apr 2021 - Present</p><br/>
         </div>
         <div className="left-header">
