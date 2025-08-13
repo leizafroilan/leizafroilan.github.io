@@ -1,21 +1,25 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: "Roboto", sans-serif, "Inter var";
+  font-family: "Calibri", sans-serif, "Inter var";
+  overflow-x: hidden;
 }
 
 .main-container {
   display: flex;
   flex-direction: row;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  /* min-width: 100%;
+  min-height: 100%; */
 }
 
 .left-container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(111, 148, 160);
-  background-image: linear-gradient(to right, rgb(111, 148, 160), rgb(152, 196, 196));
+  background-color: #2563EB;
+  /* background-image: linear-gradient(to right, rgb(111, 148, 160), rgb(152, 196, 196)); */
+  background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%);
 }
 
 .profile {
@@ -26,7 +30,8 @@ body, html {
   /* background-color:  rgb(77, 139, 159);
   background-image: linear-gradient(to bottom, rgb(77, 139, 159), rgb(111, 148, 160)); */
   background-color: rgb(111, 148, 160);
-  background-image: linear-gradient(to right, rgb(111, 148, 160), rgb(152, 196, 196));
+  /* background-image: linear-gradient(to right, rgb(111, 148, 160), rgb(152, 196, 196)); */
+  background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%);
 }
 
 .profile-image {
@@ -120,7 +125,7 @@ body, html {
   font-size: 30px;
   align-items: center;
   justify-content: center;
-  color: rgb(77, 139, 159);
+  color: #2563EB;
   font-weight: bold;
   margin: 20px 0px 0px 20px;
 
@@ -146,7 +151,7 @@ body, html {
 .right-title p:first-child {
   margin-left: 20px;
   font-size: 20px; 
-  color: rgb(77, 139, 159);
+  color: #2563EB;
   font-weight: bold;
   line-height: 1.5;
 }
@@ -154,7 +159,7 @@ body, html {
 .right-title p:nth-child(2) {
   margin-left: 20px;
   font-size: 18px; 
-  color: rgb(77, 139, 159);
+  color: #2563EB;
   font-style: italic;
   font-weight: bold;
   line-height: 1.5;
