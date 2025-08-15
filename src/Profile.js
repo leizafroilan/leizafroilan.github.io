@@ -1,7 +1,7 @@
-
+import { Link } from 'react-router-dom';
 import './App.css';
 import img from'./img/img.jfif'
-import {FaGithub, FaLinkedinIn, FaRegEnvelope, FaWhatsapp } from  'react-icons/fa'
+import {FaGithub, FaLinkedinIn, FaRegEnvelope, FaWhatsapp, FaDownload } from  'react-icons/fa'
 
 
 function Profile() {
@@ -74,7 +74,7 @@ function Profile() {
              <a href="https://www.credly.com/badges/cfffe41f-7216-4325-ba26-2f4b2cd576ea/public_url" target="_blank" rel="noopener noreferrer"
           >PCNSE</a>
           </p>
-          <p>Jun 2020 - Jul 2022</p><br/>
+          <p>Jun 2020 - Jun 2022</p><br/>
         </div>
         <div className="left-desc">
           <p>CCSE</p>
@@ -93,18 +93,18 @@ function Profile() {
         <div className="left-desc">
           <p></p>
           <p>
-          Routing/Switching <br/>
+          Routing / Switching <br/>
           Network Security <br/>
           Endpoint Security <br/> 
           Python <br/>
-          ReactJS/Javascript <br/>
+          ReactJS <br/>
           Packet Analysis <br/>
           Network Development <br/>
           Network Monitoring <br/>
           Containers/Dockers <br/>
           Container Security <br/>
           AWS Native Services <br/>
-          IaC/Terraform <br/>
+          IaC / Terraform <br/>
           SQL <br/>
           </p>
 
@@ -246,6 +246,12 @@ function Profile() {
              Collaborated with regional managers and cross-functional IT teams to  ensure proper escalation and swift resolution of incidents. Actively  contributed to the Problem Management Team, using monitoring systems to proactively  detect and  address network anomalies, helping to  prevent outages and  reduce recurring issues in Cisco-based infrastructure.
           </p>
           <br/>
+        </div>
+        <div className="resume-download">
+          <Link to="/download">
+            <FaDownload className="download-icon" />
+              Resume (PDF)
+          </Link>
         </div>
       </div>
     </div>
