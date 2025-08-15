@@ -1,7 +1,7 @@
 
 import './App.css';
 import img from'./img/img.jfif'
-import {FaGithub, FaLinkedinIn, FaPhone, FaRegEnvelope, FaWhatsapp } from  'react-icons/fa'
+import {FaGithub, FaLinkedinIn, FaRegEnvelope, FaWhatsapp } from  'react-icons/fa'
 
 
 function Profile() {

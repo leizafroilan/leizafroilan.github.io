@@ -15,7 +15,8 @@ body, html {
 .left-container {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%);
+  /* background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%); */
+  background: linear-gradient(to right, #008080 0%, #40B3B3 50%, #A0E7E5 100%);
 }
 
 .profile {
@@ -23,7 +24,8 @@ body, html {
   flex-direction: column;
   align-items: center;
   padding: 50px 0px 50px 0px;
-  background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%);
+  /* background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%); */
+  background: linear-gradient(to right, #008080 0%, #40B3B3 50%, #A0E7E5 100%);
 }
 
 .profile-image {
@@ -32,6 +34,11 @@ body, html {
   height: 150px;
   object-fit: cover;
   margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
 }
 
 .profile-name {
@@ -60,17 +67,18 @@ body, html {
 }
 
 .contact-info a:hover {
-  color: #1a485f;
+  color: #123840;
 }
 
 .cert-info a {
   color: #FFFFFF;
   text-decoration: none;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out;
 }
 
 .cert-info a:hover {
-  color: #1a485f;
+  color: #123840;
 }
 
 .icon {
@@ -128,7 +136,7 @@ body, html {
   font-size: 30px;
   align-items: center;
   justify-content: center;
-  color: #2563EB;
+  color: #008080;
   font-weight: bold;
   margin: 20px 0px 0px 20px;
 }
@@ -153,14 +161,14 @@ body, html {
 .right-title p:first-child {
   margin-left: 20px;
   font-size: 20px;
-  color: #2563EB;
+  color: #008080;
   font-weight: bold;
 }
 
 .right-title p:nth-child(2) {
   margin-left: 20px;
   font-size: 18px;
-  color: #2563EB;
+  color: #008080;
   font-style: italic;
   font-weight: bold;
 }
