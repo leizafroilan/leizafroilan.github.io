@@ -8,6 +8,12 @@ function Profile() {
   return (
     <>
     <div className="all-container">
+      <div className="resume-download">
+        <h3>Download Resume</h3>
+        <Link to="/download">
+          <FaDownload className="download-icon" />
+        </Link>
+      </div>
       <div className="main-container">
 
         <div className="left-container">
@@ -249,13 +255,6 @@ function Profile() {
           </div>
         </div>
       </div>
-      <div className="resume-download">
-        <h3>Download Resume</h3>
-        <Link to="/download">
-          <FaDownload className="download-icon" />
-        </Link>
-      </div>
-
     </div>
     </>
   );

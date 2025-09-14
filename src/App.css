@@ -187,9 +187,8 @@ body, html {
 }
 
 .resume-download {
-  margin: 10px 0px 5px 0px;
-  padding: 20px;
-  /* border: 2px dashed #008080; */
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
   background-color: #F0FBFB;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
