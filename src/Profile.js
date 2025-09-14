@@ -250,11 +250,12 @@ function Profile() {
         </div>
       </div>
       <div className="resume-download">
+        <h3>Download Resume</h3>
         <Link to="/download">
           <FaDownload className="download-icon" />
-            Resume (PDF)
         </Link>
       </div>
+
     </div>
     </>
   );
