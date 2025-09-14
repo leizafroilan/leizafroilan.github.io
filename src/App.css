@@ -2,10 +2,9 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: "Helvetica", sans-serif, "Inter var";
-  overflow-x: hidden;
-  margin-bottom: 10px;
-  
+  overflow-x: hidden;  
 }
+
 .all-container {
   display: flex;
   flex-direction: column;
@@ -188,7 +187,7 @@ body, html {
 }
 .resume-download {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 5px; 
   padding: 10px;
 }
 .resume-download a {
