@@ -185,37 +185,11 @@ body, html {
   color: #6B7280; 
   font-size: 18px;
 }
-/* .resume-download {
-  text-align: center;
-  margin-top: 5px; 
-  padding: 10px;
-}
-.resume-download a {
-  background-color: #008080;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
 
-.resume-download a:hover {
-  background-color: #006666;
-  transform: translateY(-2px);
-}
-
-.download-icon {
-  font-size: 18px;
-} */
 .resume-download {
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 5px 0px;
   padding: 20px;
-  border: 2px dashed #008080;
+  /* border: 2px dashed #008080; */
   background-color: #F0FBFB;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -415,7 +389,7 @@ body, html {
   .resume-download h3 {
   font-size: 16px;
  }
- 
+
   .download-icon {
     font-size: 16px;
   }
