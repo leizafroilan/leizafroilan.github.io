@@ -97,35 +97,59 @@ function Profile() {
             <h3>Skills</h3>
           </div>
           <div className="left-desc">
-            <p></p>
             <p>
-            Routing / Switching <br/>
-            Network Security <br/>
-            Endpoint Security <br/> 
-            Python <br/>
-            ReactJS <br/>
-            Packet Analysis <br/>
-            Network Development <br/>
-            Network Monitoring <br/>
-            Containers/Dockers <br/>
-            Container Security <br/>
-            AWS Native Services <br/>
-            IaC / Terraform <br/>
-            SQL <br/>
+              <strong>Cloud Security:</strong><br/>
+              AWS WAF<br/>
+              <strong>Container Security:</strong><br/>
+              Aqua Security<br/>
+              Docker<br/>
+              <strong>IaC:</strong><br/>
+              Terraform<br/>
+              Gitlab CI/CD<br/>
+              <strong>Network Automation:</strong><br/>
+              Python<br/>
+              FastAPI<br/>
+              REST APIs<br/>
+              <strong>Network Security:</strong><br/>
+              FortiGate<br/>
+              Check Point<br/>
+              Cisco ASA<br/>
+              <strong>Routing & Switching:</strong><br/>
+              Cisco Routers<br/>
+              Cisco Switches<br/>
+              <strong>Database Monitoring:</strong><br/>
+              Imperva DAM<br/>
+              Imperva DSF<br/>
+              <strong>Endpoint Security:</strong><br/>
+              Trend Micro<br/>
+              Palo Alto Traps/XDR<br/>
+              <strong>Network Monitoring:</strong><br/>
+              SolarWinds NPM/NCM<br/>
+              NetBrain<br/>
+              Wireshark<br/>
+              <strong>File Security:</strong><br/>
+              OPSWAT MetaDefender Core<br/>
+              Rufus API<br/>
+              <strong>Application Development:</strong><br/>
+              ReactJS<br/>
+              Python<br/>
+              SQL/MSSQL<br/>
             </p>
-
           </div>
+
         </div>
         <div className="right-container">
           
           <div className="right-header">
             <p> Career Profile </p>
           </div>
-          <div className="right-desc">
-          <p> Seasoned Senior Network Engineer with over 15 years of proven expertise in designing, implementing, and maintaining resilient network and security infrastructures across diverse environments—including data centers, remote offices, and cloud platforms. Skilled in delivering scalable and secure solutions that align with business objectives and drive operational excellence. <br/><br/> 
-          Previous experience as a Network Engineer specializing in Tools and Applications (NetDevOps), focusing on network automation, monitoring, and custom tools development to optimize network performance and streamline operational workflows. 
-          </p>
-          </div>
+            <div className="right-desc">
+              <p>
+                Network Automation, Cloud Security & Security Engineer with over 15 years of experience in network engineering, security operations and infrastructure automation across enterprise environments, data centers, remote offices, and cloud platforms. Experienced in designing, implementing, and maintaining secure, resilient network and security infrastructures while driving operational efficiency and continuous improvement.
+                <br/><br/>
+                Specialized in network automation and custom tool development using Python, FastAPI, REST APIs, and MSSQL to streamline network operations, enhance monitoring, and automate large-scale firewall deployments. Strong expertise in network security technologies, including Cisco, FortiGate, and Check Point, alongside AWS cloud security, Terraform Infrastructure as Code (IaC), Docker, and Aqua Security container protection. Experienced in integrating automated vulnerability scanning and security enforcement into GitLab and GitHub CI/CD pipelines, strengthening security throughout the software deployment lifecycle. Proven capabilities in technical project leadership, security automation, incident management, troubleshooting, and cross-functional collaboration.
+              </p>
+            </div>
           <div className="right-header">
             <p> Experience </p>
           </div>
@@ -135,40 +159,74 @@ function Profile() {
             <p>5 Ang Mo Kio Street 62, Singapore 569141</p>
             <p>May 2023 - Present</p>
           </div>
+          
           <div className="right-desc">
             <p>
-              Proactively identify, prevent, and mitigate security threats and vulnerabilities through timely implementation of patches, upgrades, and weekly content updates on managed security devices. Conduct regular device backups and coordinate with SIEM platforms and third-party vendors to assess attacks and address vulnerabilities.
+              
+              <strong>Project Leadership & Team Coordination:</strong> Led team members in executing technical projects and initiatives, coordinating tasks, tracking progress, and aligning deliverables with project objectives and timelines. Collaborated with cross-functional teams and stakeholders to resolve technical challenges, streamline implementation processes, and ensure successful project delivery.
               <br/><br/>
-              Contributed to multiple projects involving technical changes, including migration of existing applications to the cloud, firewall upgrades and migrations, and other business-as-usual (BAU) operational tasks.
+
+              <strong>Container Security & DevSecOps Automation:</strong> Led the development and optimization of automated container security processes using Aqua Security, streamlining vulnerability assessment and enforcement across container deployment workflows.
               <br/><br/>
-              Leverage Infrastructure as Code (IaC) principles using Terraform to automate and standardize the deployment and management of cloud security infrastructure.
+
+              <strong>CI/CD Pipeline Security Integration:</strong> Implemented mandatory Aqua Security image scanning and security validation within GitLab CI/CD deployment pipelines, strengthening security controls and preventing vulnerable container images from progressing through deployment workflows.
               <br/><br/>
-              Manage AWS native security services, including Web Application Firewall (WAF), Secrets Manager, and Key Management Service (KMS), with automated provisioning and configuration through Terraform.
+
+              <strong>Security Reporting & Data Automation:</strong> Developed automation workflows for security report generation and data extraction, reducing manual effort, improving reporting consistency, and streamlining security data analysis.
               <br/><br/>
-              Oversee container security by deploying and managing Aqua Security solutions, integrating them into automated workflows using Terraform for consistent, scalable protection of containerized environments.
+
+              <strong>Security Vulnerability Management:</strong> Proactively identified, assessed, and mitigated security threats and vulnerabilities through timely patching, software upgrades, and weekly security content updates across managed security devices. Performed regular device backups and collaborated with SIEM teams and third-party vendors to investigate security incidents and remediate vulnerabilities.
               <br/><br/>
-              Manage file scanning operations utilizing OPSWAT MetaDefender Core to maintain high levels of threat detection and prevention.
+
+              <strong>Cloud Migration & Security Infrastructure Projects:</strong> Contributed to technical initiatives involving application migration to cloud environments, firewall upgrades and migrations, security infrastructure changes, and business-as-usual (BAU) operations.
               <br/><br/>
-              Prepare detailed monthly security reports, maintain comprehensive documentation for processes, and develop runbooks and upgrade procedures to support operational excellence and knowledge continuity.
+
+              <strong>Infrastructure as Code (IaC):</strong> Leveraged Terraform to automate, standardize, and manage cloud security infrastructure deployments, improving configuration consistency and operational efficiency.
+              <br/><br/>
+
+              <strong>AWS Cloud Security Services:</strong> Managed AWS-native security services, including Web Application Firewall (WAF), Secrets Manager, and Key Management Service (KMS), using Terraform for automated provisioning and configuration management.
+              <br/><br/>
+
+              <strong>Container Security Platform Management:</strong> Deployed and managed Aqua Security solutions to protect containerized environments, incorporating infrastructure automation and standardized security configurations into operational workflows.
+              <br/><br/>
+
+              <strong>File Security & Malware Scanning:</strong> Managed file scanning operations using OPSWAT MetaDefender Core to support malware detection, file security validation, and threat prevention.
+              <br/><br/>
+
+              <strong>Database Security & Monitoring:</strong> Administered and maintained Imperva Database Activity Monitoring (DAM) and Data Security Fabric (DSF) environments, performing continuous monitoring, health checks, troubleshooting, and platform upgrades. Investigated and resolved database connectivity, monitoring, and system-related issues to maintain service availability and ensure reliable database activity monitoring. Supported platform maintenance, operational optimization, and incident resolution to strengthen database security monitoring and operational stability.
+              <br/><br/>
+
+              <strong>Firewall Administration & Security Management:</strong> Administered and managed FortiGate firewalls, including configuration management, security policy administration, monitoring, troubleshooting, and firmware upgrades. Supported firewall rule reviews, connectivity issue resolution, and security policy optimization to maintain network protection, service availability, and operational stability.
+              <br/><br/>
+              
+              <strong>Security Documentation & Operational Excellence:</strong> Prepared monthly security reports and maintained technical documentation, operational runbooks, and upgrade procedures to support consistent service delivery, troubleshooting, and knowledge transfer.
             </p>
             <br/>
           </div>
+
           <div className="right-title">
             <p>Network Tools and Applications Engineer</p>
             <p>NTT Data Services Singapore Pte. Ltd.</p>
             <p>Aperia Tower 1 Singapore, 339509</p>
             <p>June 2021 - May 2023</p>
           </div>
+          
           <div className="right-desc">
             <p>
-              Implemented enhancements to the client’s network management tools with a focus on expanding capabilities for network monitoring, fault detection, and automated recovery. Strengthened existing toolsets by identifying coverage and capability gaps, and  collaborated with team leads, architects, and engineers to deliver more granular, real-time network visibility. Contributed to a coding and automation initiative that  developed network operations tools using Python with FastAPI, MSSQL, and ReactJS.
+              <strong>Network Monitoring & Automation Enhancements:</strong> Enhanced client network management tools to improve network visibility, fault detection, and automated recovery capabilities. Identified monitoring coverage gaps and functional limitations, collaborating with team leads, architects, and engineers to deliver more granular, real-time network monitoring and improve operational efficiency.
               <br/><br/>
-              Supported administrative functions across QIP, SolarWinds, and NetBrain environments, including basic management of NPM and NCM modules.  Leveraged advanced scripting and integration skills to build custom solutions using the SolarWinds SWIS API, MSSQL, and NetBrain RESTful API.
+
+              <strong>Network Operations Tool Development:</strong> Contributed to the design and development of automated network operations tools using Python, FastAPI, MSSQL, and ReactJS, expanding network management capabilities and streamlining operational workflows.
               <br/><br/>
-              Developed and  documented a robust process, along with supporting code, to reconcile device inventories across platforms, ensuring alignment between legacy and new infrastructure and  reducing monitoring and security gaps typically introduced through human error.
+
+              <strong>Network Management Platform Administration & API Integration:</strong> Supported the administration and configuration of QIP, SolarWinds, and NetBrain platforms, including foundational management of SolarWinds Network Performance Monitor (NPM) and Network Configuration Manager (NCM). Developed custom automation and integration solutions using the SolarWinds SWIS API, MSSQL, and NetBrain REST APIs to extend platform functionality and streamline network management tasks.
+              <br/><br/>
+
+              <strong>Automated Network Inventory Reconciliation:</strong> Designed, documented, and implemented a standardized device inventory reconciliation process, supported by custom automation code, to synchronize network device inventories across management platforms. Improved consistency between legacy and new infrastructure, minimized manual reconciliation errors, and reduced monitoring blind spots and potential security gaps caused by inventory discrepancies.
             </p>
             <br/>
           </div>
+
           <div className="right-title">
             <p>IT Security Senior Consultant</p>
             <p>NCS Pte. Ltd. / Singtel Cybersecurity Pte. Ltd.</p>
@@ -177,15 +235,21 @@ function Profile() {
           </div>
           <div className="right-desc">
             <p>
-              Proactively prevented and  mitigated security threats and vulnerabilities by  implementing patches,  performing system upgrades on managed security devices,  applying weekly content updates, and  conducting regular device backups.  Coordinated with SIEM teams and third-party vendors to  assess security incidents,  analyze attack vectors, and  remediate vulnerabilities effectively.
+              <strong>Security Operations & Vulnerability Management:</strong> Proactively identified, prevented, and mitigated security threats and vulnerabilities across managed security devices through timely patching, system upgrades, weekly security content updates, and regular device backups. Collaborated with SIEM teams and third-party vendors to investigate security incidents, analyze attack vectors, and coordinate remediation activities to strengthen the security posture of managed environments.
               <br/><br/>
-              Implemented technical changes and  contributed to multiple projects, including the migration of existing applications to the cloud.  Provided ongoing support for incident management and  handled various operational business-as-usual (BAU) tasks.
+
+              <strong>Cloud Migration & Technical Project Support:</strong> Contributed to technical projects involving application migration to cloud environments, infrastructure changes, and security enhancements. Supported incident management, troubleshooting, and day-to-day business-as-usual (BAU) operations to maintain service availability and operational stability.
               <br/><br/>
-              Managed and  administered cloud security solutions, including Palo Alto Traps XDR, to  strengthen endpoint protection and threat detection capabilities.
+
+              <strong>Endpoint Security & Threat Detection:</strong> Administered and managed Palo Alto Traps and Extended Detection and Response (XDR) security solutions to strengthen endpoint protection, improve threat detection capabilities, and support the identification and mitigation of security threats.
               <br/><br/>
-              Led the creation of monthly security reports and  maintained detailed documentation for operational processes, runbooks, and upgrade procedures to  support consistency and compliance.
+
+              <strong>Firewall Administration & Security Management:</strong> Administered and managed multiple firewall platforms, including FortiGate, Check Point, and Cisco ASA. Performed firewall configuration, security policy administration, rule reviews, monitoring, troubleshooting, and firmware upgrades. Investigated and resolved network connectivity issues, optimized firewall rules, and maintained security policies to strengthen network protection, ensure service availability, and support operational stability.
+              <br/><br/>
+
+              <strong>Security Reporting & Documentation:</strong> Led the preparation of monthly security reports and maintained comprehensive technical documentation, operational runbooks, and upgrade procedures. Standardized operational processes to improve consistency, support compliance requirements, and facilitate troubleshooting and knowledge transfer.
             </p>
-          <br/>
+            <br/>
           </div>
           <div className="right-title">
             <p>Senior Security Analyst</p>
@@ -193,69 +257,86 @@ function Profile() {
             <p>8 Marina Boulevard, Marina Center, Singapore 018984</p>
             <p>March 2017 - April 2018</p>
           </div>
-          <div className="right-desc">
-            <p>
-              Worked collaboratively within a team specializing in network security,  applying in-depth technical knowledge to  maintain and  enhance the organization’s network infrastructure.  Engaged in the design and implementation of secure configurations,  ensuring compliance with internal policies and industry standards across various environments.
-              <br/><br/>
-              Played a key role in  executing technical changes aimed at  improving network resilience, performance, and security posture. These included configuration updates, firewall rule changes, and the  deployment of new security policies aligned with evolving business and threat requirements.
-              <br/><br/>
-              Supported a range of business-as-usual (BAU) operational tasks, such as system monitoring, incident response, vulnerability management, and performance tuning.  Contributed to  maintaining secure, stable, and efficient network operations in a high-availability, compliance-driven banking environment.
-            </p>
-            <br/>
-          </div>
+          
+            <div className="right-desc">
+              <p>
+                <strong>Network Security Operations & Infrastructure Management:</strong> Collaborated with network security teams to maintain, secure, and enhance enterprise network infrastructure in a high-availability banking environment. Administered and supported FortiGate and Check Point firewalls, implementing secure network configurations and security controls in accordance with internal policies, regulatory requirements, and industry best practices.
+                <br/><br/>
+
+                <strong>Network Security Configuration & Change Management:</strong> Executed technical changes to strengthen network resilience, performance, and security posture, including firewall rule modifications, security policy implementation, and network configuration updates across FortiGate and Check Point platforms. Supported change validation and troubleshooting to minimize operational risks and service disruptions while aligning security controls with evolving business requirements and emerging threats.
+                <br/><br/>
+
+                <strong>Security Monitoring & Incident Response:</strong> Performed routine network infrastructure and firewall monitoring, supported security incident investigation and response, and contributed to vulnerability remediation and performance optimization. Investigated network connectivity and security policy issues to maintain service availability, operational stability, and effective security controls.
+                <br/><br/>
+
+                <strong>Business-as-Usual (BAU) Operations & Compliance:</strong> Supported day-to-day network security operations, firewall maintenance, security policy reviews, and operational troubleshooting within a compliance-driven banking environment. Helped maintain reliable network services while ensuring adherence to established operational procedures, security standards, and regulatory requirements.
+              </p>
+              <br/>
+            </div>
           <div className="right-title">
             <p>Network Security Engineer</p>
             <p>Safeway Philtech Inc.</p>
             <p>Mckinley Taguig City, Philippines</p>
             <p>November 2014 – February 2017</p>
           </div>
-          <div className="right-desc">
-            <p>
-              Led the deployment of Cisco ASA ACLs across more than 1,500 remote sites using network automation tools,  significantly streamlining rollout and  reducing manual effort.  Participated in multiple infrastructure projects, including router and switch refresh initiatives, as well as large-scale firewall migrations to  enhance network performance and security.
-              <br/><br/>
-              Implemented complex technical changes and  managed critical incidents through advanced troubleshooting techniques, including deep packet analysis and forensic investigation on network and security devices.  Served as an escalation point for the Network Operations team,  ensuring timely and accurate resolution of high-impact issues.
-              <br/><br/>
-              Oversaw the administration of network and security appliances to  maintain up-to-date software versions and  applied security patches in accordance with policy.  Ensured comprehensive monitoring and visibility by  integrating systems with monitoring platforms, network taps, and logging facilities for real-time packet capture.
-              <br/><br/>
-              Additionally,  conducted internal technical training for the team and  led structured knowledge transfer sessions for new hires.
-            </p>
-            <br/>
-          </div>
+            <div className="right-desc">
+              <p>
+                <strong>Network Security Automation & Large-Scale Deployment:</strong> Led the automated deployment of Cisco ASA Access Control Lists (ACLs) across more than 1,500 remote sites using network automation tools, streamlining rollout processes, reducing manual configuration effort, and improving deployment consistency. Contributed to infrastructure modernization projects, including router and switch refresh initiatives and large-scale firewall migrations to enhance network performance, resilience, and security.
+                <br/><br/>
+
+                <strong>Advanced Troubleshooting & Critical Incident Management:</strong> Implemented complex network and security changes and managed critical incidents through advanced troubleshooting, deep packet analysis, and forensic investigation of network traffic and security devices. Served as an escalation point for the Network Operations team, driving timely incident resolution, minimizing service disruption, and restoring operational stability.
+                <br/><br/>
+
+                <strong>Network & Security Infrastructure Management:</strong> Administered and maintained Cisco routers, switches, and network security appliances, ensuring software versions and security patches remained aligned with organizational policies and security requirements. Integrated network infrastructure with monitoring platforms, network taps, and logging systems to enhance network visibility, enable real-time packet capture, and support incident investigation, advanced troubleshooting, and root cause analysis.
+                <br/><br/>
+
+                <strong>Technical Leadership & Knowledge Transfer:</strong> Conducted internal technical training and led structured knowledge transfer sessions for new hires, sharing operational expertise, troubleshooting methodologies, and network security best practices to strengthen team capabilities and support consistent service delivery.
+              </p>
+              <br/>
+            </div>
           <div className="right-title">
             <p>Network Security Engineer</p>
             <p>Weserv / Fujitsu Philippines</p>
             <p>BGC Taguig, Philippines</p>
             <p>May 2013 – November 2014</p>
           </div>
-          <div className="right-desc">
-            <p>
-              Handled the administration of network and security devices,  ensuring all systems were kept up to date with the latest software versions and security patches.  Carried out technical changes and  supported day-to-day operational and BAU (Business As Usual) tasks to  maintain network reliability and security compliance.
-              <br/><br/>
-              Participated in Change Advisory Board (CAB) meetings to  review and  present proposed network changes.  Took on key roles such as Change Coordinator and Implementer,  ensuring all planned changes were properly documented, reviewed, and executed. Also  attended Problem Management meetings when required to  support root cause analysis and long-term issue resolution.
-              <br/><br/>
-              Maintained and regularly  updated network documentation, including topology diagrams and standard operating procedures.  Ensured smooth handover of newly deployed or updated network devices to Operations,  supporting continuity and operational readiness.
-            </p>
-            <br/>
-          </div>
+            <div className="right-desc">
+              <p>
+                <strong>Network & Security Device Administration:</strong> Administered and maintained network and security devices, including Check Point and Cisco ASA firewalls, ensuring software versions and security patches remained up to date and aligned with organizational security policies. Implemented technical changes and performed day-to-day operational and Business-as-Usual (BAU) activities to maintain network reliability, security compliance, and service availability.
+                <br/><br/>
+
+                <strong>Change & Problem Management:</strong> Participated in Change Advisory Board (CAB) meetings to review, present, and assess proposed network changes. Undertook Change Coordinator and Implementer responsibilities, ensuring changes were properly documented, risk-assessed, reviewed, approved, and executed in accordance with established change management procedures. Participated in Problem Management meetings as required to support root cause analysis and long-term issue resolution.
+                <br/><br/>
+
+                <strong>Network Documentation & Operational Handover:</strong> Maintained and updated network documentation, including network topology diagrams, configuration records, and standard operating procedures (SOPs). Coordinated the handover of newly deployed or upgraded network devices to Operations, ensuring documentation completeness, operational readiness, and continuity of support.
+              </p>
+              <br/>
+            </div>
           <div className="right-title">
             <p>Network Engineer</p>
             <p>Regus Service Centre</p>
             <p>BGC Taguig, Philippines</p>
             <p>September 2010 – April 2013</p>
           </div>
-          <div className="right-desc">
+         <div className="right-desc">
             <p>
-              Performed fault analysis and resolution across LAN, WAN, wireless, and firewall infrastructure, primarily using Cisco technologies.  Troubleshot and  resolved issues across a range of Cisco devices, including routers, switches, wireless controllers, and ASA firewalls,  ensuring stable and secure network performance.
+              <strong>Network Troubleshooting & Fault Resolution:</strong> Performed fault analysis, diagnosis, and resolution across LAN, WAN, wireless, and firewall infrastructure within Cisco-based network environments. Troubleshot and maintained Cisco routers, switches, wireless controllers, and ASA firewalls to ensure reliable connectivity, optimal network performance, and secure operations.
               <br/><br/>
-              Delivered effective and timely responses to reported network incidents, with a strong focus on accurate root cause diagnosis and permanent fixes.  Utilized advanced troubleshooting techniques and Cisco tools to  resolve complex faults affecting connectivity, performance, and security.
+
+              <strong>Incident Management & Root Cause Analysis:</strong> Responded to and resolved network incidents within established operational timelines, applying advanced troubleshooting methodologies and Cisco diagnostic tools to identify root causes and implement effective corrective and permanent fixes. Addressed complex connectivity, performance, and security issues to minimize service disruption and maintain network availability.
               <br/><br/>
-              Collaborated with regional managers and cross-functional IT teams to  ensure proper escalation and swift resolution of incidents. Actively  contributed to the Problem Management Team, using monitoring systems to proactively  detect and  address network anomalies, helping to  prevent outages and  reduce recurring issues in Cisco-based infrastructure.
+
+              <strong>Cross-Functional Collaboration & Escalation:</strong> Collaborated with regional managers and cross-functional IT teams to coordinate incident escalation, troubleshoot complex network issues, and expedite service restoration. Ensured effective communication and coordination throughout the incident resolution process.
+              <br/><br/>
+
+              <strong>Problem Management & Proactive Monitoring:</strong> Actively contributed to the Problem Management Team by analyzing recurring network faults, leveraging monitoring systems to identify anomalies, and supporting preventive measures to reduce repeat incidents and minimize potential outages across Cisco-based infrastructure.
             </p>
+            <br/>
+          </div>
             <br/>
           </div>
         </div>
       </div>
-    </div>
     </>
   );
 }
