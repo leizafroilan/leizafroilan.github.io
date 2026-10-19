@@ -321,6 +321,11 @@ html {
     padding-bottom: 16px;
   }
 
+  .profile-title {
+    font-size: 18px;
+    padding-top: 8px;
+  }
+
   .left-container,
   .profile {
     max-width: 250px;
@@ -396,6 +401,11 @@ html {
 
   .main-container {
     padding-bottom: 12px;
+  }
+
+  .profile-title {
+    font-size: 14px;
+    padding-top: 6px;
   }
   .left-container {
     max-width: 190px;
@@ -515,6 +525,11 @@ html {
 
   .main-container {
     padding-bottom: 8px;
+  }
+
+  .profile-title {
+    font-size: 12px;
+    padding-top: 5px;
   }
 
   .left-container,
