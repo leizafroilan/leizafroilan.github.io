@@ -1,8 +1,9 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font-family: "Helvetica", sans-serif, "Inter var";
-  overflow-x: hidden;  
+  overflow-x: hidden;
 }
 
 .all-container {
@@ -16,23 +17,34 @@ body, html {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-top: 20px;
   overflow-x: hidden;
 }
 
 .left-container {
   display: flex;
   flex-direction: column;
-  /* background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%); */
-  background: linear-gradient(to right, #008080 0%, #40B3B3 50%, #8FD7D4 100%);
+  background: teal;
+  /* background: linear-gradient(to right, #008080 0%, #40B3B3 50%, #8FD7D4 100%); */
 }
 
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0px 50px 0px;
-  /* background: linear-gradient(to right, #2563EB 0%, #2563EB 15%, #93C5FD 100%); */
-  background: linear-gradient(to right, #008080 0%, #40B3B3 50%, #8FD7D4 100%);
+  padding: 30px 0 15px;
+  background: teal;
+  /* background: linear-gradient(to right, #008080 0%, #40B3B3 50%, #8FD7D4 100%); */
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .profile-image {
@@ -53,89 +65,128 @@ body, html {
   font-size: 30px;
   font-weight: bold;
   color: white;
-  padding-bottom: 30px;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.contact-container {  
-  padding: 0px 10px 10px 50px;
+/* Individual contact rows */
+.contacts-section .contact-container {
   display: flex;
-  align-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 10px 4px 50px;
+  width: 100%;
+  box-sizing: border-box;
+
 }
 
-.contact-info {
-  font-size: 16px;  
+/* Contact text */
+.contacts-section .contact-info {
+  min-width: 0;
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #E5E7EB;
+  overflow-wrap: anywhere;
 }
 
-.contact-info a {
-  color: #FFFFFF;
-  text-decoration: none;  
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
-}
-
-.contact-info a:hover {
-  color: #123840;
-}
-
-.cert-info a {
-  color: #FFFFFF;
+.contacts-section .contact-info a {
+  display: block;
+  color: #E5E7EB;
   text-decoration: none;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+  font-size: inherit;
+  line-height: 1.5;
+  font-weight: normal;
+  text-shadow: none;
+  overflow-wrap: anywhere;
 }
 
-.cert-info a:hover {
+.contacts-section .contact-info a:hover {
   color: #123840;
 }
 
-.icon {
+/* Contact icons */
+.contacts-section .icon {
+  flex-shrink: 0;
   font-size: 23px;
-  padding-right: 10px;
-  line-height: 2px;
+  width: 23px;
+  margin-right: 10px;
+  line-height: 1.5;
 }
 
+/* Left-column section headings */
 .left-header {
   text-align: left;
   align-items: center;
   justify-content: center;
   font-size: 20px;
   min-width: 280px;
-  padding: 20px 0px 0px 50px;
+  padding: 6px 0 0 50px;
   color: white;
   font-weight: bold;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* General left-column content */
 .left-desc p {
   margin: 0;
   text-align: left;
-  align-items: center;
-  justify-content: center;
   padding-left: 50px;
 }
 
-.left-desc p:first-child {
+/* Shared layout for Skills, Certificates, and Education */
+.contacts-section,
+.skills-section .skill-category,
+.certificates-section .certificate-category,
+.education-section .education-category {
+  margin: 0 0 8px;
+  padding: 0;
+}
+
+/* Shared heading styles */
+.skills-section .skill-heading,
+.certificates-section .certificate-name,
+.education-section .education-heading {
+  margin: 0;
+  padding: 4px 0 8px 50px;
+  text-align: left;
   font-size: 18px;
-  color: white;
-  line-height: 2;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+  line-height: 1.5;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.left-desc p:nth-child(2),
-.left-desc p:nth-child(3) {
+/* Shared secondary text styles */
+.skills-section .skill-item,
+.certificates-section .certificate-date,
+.education-section .education-school,
+.education-section .education-date {
+  margin: 0;
+  padding: 0 0 8px 50px;
+  text-align: left;
   font-size: 18px;
-  color: #E5E7EB; 
-  line-height: 2;
+  line-height: 1.5;
+  color: #E5E7EB;
+  font-weight: normal;
+  text-shadow: none;
 }
 
-.left-desc p:nth-child(3) {
-  padding-top: 0;
-  padding-bottom: 20px;
+/* Certificate links */
+.certificates-section .certificate-name a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+.certificates-section .certificate-name a:hover {
+  color: #123840;
+}
+
+/* Right column */
 .right-container {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;  
+  padding-left: 20px;
 }
 
 .right-header {
@@ -144,12 +195,12 @@ body, html {
   justify-content: center;
   color: #008080;
   font-weight: bold;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 0 0 20px;
 }
 
 .right-desc {
   text-align: left;
-  color: #333333; 
+  color: #333333;
   font-size: 18px;
   margin-left: 20px;
   margin-right: 20px;
@@ -159,8 +210,6 @@ body, html {
 .right-title p {
   margin: 0;
   text-align: left;
-  align-items: center;
-  justify-content: center;
   line-height: 1.5;
 }
 
@@ -182,74 +231,158 @@ body, html {
 .right-title p:nth-child(3),
 .right-title p:nth-child(4) {
   margin-left: 20px;
-  color: #6B7280; 
+  color: #6B7280;
   font-size: 18px;
 }
 
+/* Download section */
 .resume-download {
-  margin: 10px 0px 10px 0px;
-  padding: 10px;
-  background-color: #F0FBFB;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.10);
-}
-
-.resume-download a {
-  background-color: #008080;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 8px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 32px;
+  background: #F4FAFA;
+  border-bottom: 1px solid #DCEBEB;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
 }
 
-.resume-download h3 {
-  margin: 0 0 15px 0;
-  font-size: 18px;
-  color: #008080;
-  font-weight: 600;
-}
-
-.resume-download a:hover {
-  background-color: #006666;
-  transform: translateY(-2px);
+.download-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .download-icon {
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 11px;
+  box-sizing: border-box;
+  color: #008080;
+  background: #DDF1F0;
+  border-radius: 10px;
+  font-size: 22px;
 }
 
+.resume-download h3 {
+  margin: 0 0 4px;
+  color: #173B3B;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.download-info p {
+  margin: 0;
+  color: #647474;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 11px 20px;
+  color: #FFFFFF;
+  background: #008080;
+  border: 1px solid #008080;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.download-button:hover {
+  background: #006B6B;
+  border-color: #006B6B;
+  box-shadow: 0 3px 8px rgba(0, 128, 128, 0.18);
+  transform: translateY(-1px);
+}
+
+.download-button:focus-visible {
+  outline: 3px solid #80CBC4;
+  outline-offset: 3px;
+}
+
+/* Tablet */
 @media (max-width: 820px) {
-  .left-container { max-width: 250px; }
-  .profile { max-width: 250px; }
-  .profile-image { width: 190px; height: 190px; margin: 10px; }
+  .main-container {
+    padding-bottom: 16px;
+  }
 
-  .contact-container { padding: 0px 10px 10px 30px; }
-  .icon { font-size: 20px; }
-  .contact-info { font-size: 16px; }
+  .left-container,
+  .profile {
+    max-width: 250px;
+  }
 
-  .left-header { font-size: 20px; padding-left: 30px; }
-  .left-desc p { padding-left: 30px; }
-  .left-desc p:first-child,
-  .left-desc p:nth-child(2),
-  .left-desc p:nth-child(3) {
+  .profile-image {
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+  }
+
+  .contacts-section .contact-container {
+    padding: 0 10px 4px 30px;
+  }
+
+  .contacts-section .contact-info,
+  .contacts-section .contact-info a {
     font-size: 16px;
   }
 
-  .right-header { margin-left: 10px; font-size: 30px; }
+  .contacts-section .icon {
+    font-size: 20px;
+    width: 20px;
+  }
+
+  .left-header {
+    font-size: 20px;
+    padding: 6px 0 0 30px;
+  }
+
+  .left-desc > p {
+    padding-left: 30px;
+  }
+
+  .skills-section .skill-heading,
+  .skills-section .skill-item,
+  .certificates-section .certificate-name,
+  .certificates-section .certificate-date,
+  .education-section .education-heading,
+  .education-section .education-school,
+  .education-section .education-date {
+    padding-left: 30px;
+    font-size: 16px;
+  }
+
+  .right-header {
+    margin-left: 10px;
+    font-size: 30px;
+  }
+
   .right-desc {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 16px;
-    line-height: 1.6; 
+    line-height: 1.6;
   }
 
-  .right-title p:first-child { margin-left: 10px; font-size: 20px; }
+  .right-title p:first-child {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
   .right-title p:nth-child(2),
   .right-title p:nth-child(3),
   .right-title p:nth-child(4) {
@@ -258,126 +391,207 @@ body, html {
   }
 }
 
+/* Mobile */
 @media (max-width: 540px) {
-  .left-container { max-width: 190px; }
-  .profile { padding: 15px; max-width: 190px; }
-  .profile-image { width: 140px; height: 140px; margin: 10px; }
-  .profile-name { font-size: 20px; }
 
-  .contact-container { padding: 0px 10px 10px 20px; }
-  .contact-info { font-size: 12px; }
-  .icon { font-size: 16px; padding-right: 7px; }
-
-  .left-header { font-size: 15px; padding: 0px 10px 0px 20px; }
-  .left-desc p,
-  .left-desc p:first-child,
-  .left-desc p:nth-child(2),
-  .left-desc p:nth-child(3) {
-    font-size: 12px;
-    padding-left: 20px;
+  .main-container {
+    padding-bottom: 12px;
+  }
+  .left-container {
+    max-width: 190px;
   }
 
-  .right-container { padding-left: 0; }
-  .right-header { font-size: 20px; margin-left: 15px; margin-right: 10px; }
+  .profile {
+    padding: 15px 10px 8px;
+    max-width: 190px;
+  }
+
+  .profile-image {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .profile-title {
+    padding-top: 8px;
+  }
+
+  .contacts-section .contact-container {
+    padding: 0 10px 4px 20px;
+  }
+
+  .contacts-section .contact-info,
+  .contacts-section .contact-info a {
+    font-size: 12px;
+  }
+
+  .contacts-section .icon {
+    font-size: 16px;
+    width: 16px;
+    margin-right: 7px;
+  }
+
+  .left-header {
+    font-size: 15px;
+    padding: 6px 10px 0 20px;
+  }
+
+  .skills-section .skill-heading,
+  .skills-section .skill-item,
+  .certificates-section .certificate-name,
+  .certificates-section .certificate-date,
+  .education-section .education-heading,
+  .education-section .education-school,
+  .education-section .education-date {
+    padding-left: 20px;
+    font-size: 12px;
+  }
+
+  .right-container {
+    padding-left: 0;
+  }
+
+  .right-header {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
   .right-desc {
     margin-left: 15px;
     margin-right: 10px;
     font-size: 12px;
-    line-height: 1.6; 
+    line-height: 1.6;
   }
 
-  .right-title p:first-child { font-size: 15px; margin-left: 15px; }
+  .right-title p:first-child {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
   .right-title p:nth-child(2),
   .right-title p:nth-child(3),
   .right-title p:nth-child(4) {
     font-size: 13px;
     margin-left: 15px;
   }
-}
 
-  .resume-download a {
-    padding: 10px 18px;
-    font-size: 12px;
-    gap: 8px;
-    
+.resume-download {
+    padding: 12px 16px;
+    gap: 12px;
+  }
+
+  .download-info {
+    gap: 10px;
+  }
+
+  .download-icon {
+    width: 36px;
+    height: 36px;
+    padding: 9px;
+    font-size: 18px;
   }
 
   .resume-download h3 {
-  font-size: 16px;
+    font-size: 14px;
+  }
+
+  .download-info p {
+    font-size: 11px;
+  }
+
+  .download-button {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
 }
 
-  .download-icon {
+/* Very small screens */
+@media (max-width: 285px) {
+
+  .main-container {
+    padding-bottom: 8px;
+  }
+
+  .left-container,
+  .profile {
+    max-width: 150px;
+  }
+
+  .profile {
+    padding: 15px 10px 8px;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+  }
+
+  .profile-name {
     font-size: 16px;
   }
 
-
-@media (max-width: 285px) {
-
-  .left-container { 
-    max-width: 150px; 
+  .profile-title {
+    padding-top: 6px;
   }
 
-  .profile { 
-    padding: 15px; 
-    max-width: 150px; 
+  .contacts-section .contact-container {
+    padding: 0 5px 4px 15px;
   }
 
-  .profile-image { 
-    width: 120px; 
-    height: 120px; 
-    margin: 8px; 
-  }
-
-  .profile-name { 
-    font-size: 16px; 
-  }
-
-  .contact-container { 
-    padding: 0px 5px 10px 15px; 
-  }
-
-  .contact-info { 
-    font-size: 10px; 
-  }
-
-  .icon { 
-    font-size: 14px; 
-    padding-right: 5px; 
-  }
-
-  .left-header { 
-    font-size: 12px; 
-    padding-left: 15px; 
-  }
-  .left-desc p,
-  .left-desc p:first-child,
-  .left-desc p:nth-child(2),
-  .left-desc p:nth-child(3) {
+  .contacts-section .contact-info,
+  .contacts-section .contact-info a {
     font-size: 10px;
+  }
+
+  .contacts-section .icon {
+    font-size: 14px;
+    width: 14px;
+    margin-right: 5px;
+  }
+
+  .left-header {
+    font-size: 12px;
+    padding: 6px 0 0 15px;
+  }
+
+  .skills-section .skill-heading,
+  .skills-section .skill-item,
+  .certificates-section .certificate-name,
+  .certificates-section .certificate-date,
+  .education-section .education-heading,
+  .education-section .education-school,
+  .education-section .education-date {
     padding-left: 15px;
+    font-size: 10px;
   }
 
-  .right-container { 
-    padding-left: 0; 
+  .right-container {
+    padding-left: 0;
   }
 
-  .right-header { 
-    font-size: 16px; 
-    margin-left: 15px; 
+  .right-header {
+    font-size: 16px;
+    margin-left: 15px;
   }
 
   .right-desc {
     margin-left: 15px;
     margin-right: 10px;
     font-size: 10px;
-    line-height: 1.6; 
+    line-height: 1.6;
   }
 
-  .right-title p:first-child { 
-    font-size: 12px; 
-    margin-left: 15px; 
+  .right-title p:first-child {
+    font-size: 12px;
+    margin-left: 15px;
   }
-  
+
   .right-title p:nth-child(2),
   .right-title p:nth-child(3),
   .right-title p:nth-child(4) {
@@ -386,13 +600,10 @@ body, html {
   }
 
   .resume-download h3 {
-  font-size: 16px;
- }
+    font-size: 16px;
+  }
 
   .download-icon {
     font-size: 16px;
   }
 }
-
-
-
