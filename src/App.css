@@ -474,7 +474,7 @@ html {
   .right-desc {
     margin-left: 15px;
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.6;
   }
 
@@ -565,10 +565,6 @@ html {
 
   .profile-name {
     font-size: 16px;
-  }
-
-  .profile-title {
-    padding-top: 6px;
   }
 
   .contacts-section .contact-container {
